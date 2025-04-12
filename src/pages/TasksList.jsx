@@ -8,7 +8,8 @@ const Home = () => {
 
     return (
     <>
-    <h2>Pagina Home</h2>
+    <div className="container">
+    <h2 className="text-center mb-5">Ecco tutte le task</h2>
     <table className="table">
   <thead>
     <tr>
@@ -24,7 +25,7 @@ const Home = () => {
     }
   </tbody>
 </table>
-    
+    </div>
     </>
     )
   };

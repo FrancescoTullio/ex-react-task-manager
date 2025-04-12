@@ -5,7 +5,7 @@ const AppHeader = () => {
     <header style={{ background: '#eee', padding: '1rem' }}>
       <nav>
         <Link to="/" style={{ marginRight: '1rem' }}>Lista delle tasks</Link>
-        <Link to="/about">About</Link>
+        <Link to="/AddTask">AddTask</Link>
       </nav>
     </header>
   );
