@@ -9,12 +9,14 @@ import useTask from './customHook/UseTasks.jsx';
 function App() {
 
 
-  const { tasks } = useTask()
+  const { tasks, addTask, mess, setMess } = useTask()
 
 
   const GlobalContexProvider = {
     tasks,
-    useTask,
+    addTask,
+    mess,
+    setMess
   }
 
   return (
