@@ -42,6 +42,11 @@ const AddTask = () => {
       areaDes.current.value = ""
     } else {
       console.log("errore con il submit");
+      setMess({
+        complite: false,
+        messaggio: "impossibile aggiungere questa task",
+        className: "alert-danger"
+    })
     }
   }
 
