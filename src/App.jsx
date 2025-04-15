@@ -10,7 +10,7 @@ import useTask from './customHook/UseTasks.jsx';
 function App() {
 
 
-  const { tasks, addTask, mess, setMess, deleteTask } = useTask()
+  const { tasks, addTask, mess, setMess, deleteTask, updateTask } = useTask()
 
 
   const GlobalContexProvider = {
@@ -18,7 +18,8 @@ function App() {
     addTask,
     mess,
     setMess,
-    deleteTask
+    deleteTask,
+    updateTask
   }
 
   return (
